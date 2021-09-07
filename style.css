@@ -6,8 +6,6 @@ body {
     background-image:url("background.png");
 }
 
-#header {}
-
 td h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #F29D5F;
@@ -267,7 +265,24 @@ textarea {
     color: #FFD19A;
 }
 
+#reset-btn {
+    text-align: center;
+    border: none;
+    border-radius:10px ;
+    width: 80px;
+    font-size: 14px;
+    background-color: #914F3B ;
+    color: #FFD19A;
+}
+
 #submit-btn:hover {
+    box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 4px 4px 16px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 4px 4px 16px 1px rgba(0,0,0,0.51);
+    color: #FFFF;
+}
+
+#reset-btn:hover {
     box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.51);
     -webkit-box-shadow: 4px 4px 16px 1px rgba(0,0,0,0.51);
     -moz-box-shadow: 4px 4px 16px 1px rgba(0,0,0,0.51);

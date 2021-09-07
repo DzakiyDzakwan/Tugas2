@@ -115,33 +115,33 @@
                     </fieldset>
                     <br>
     
-                    <form action="https://dzakiydzakwan.github.io/project1/" target="blank">
+                    <form action="https://dzakiydzakwan.github.io/project1/" target="blank" method="POST">
                         <!--@csrf-->
                         <fieldset id="form">
                             <legend><h3>Formulir Pendaftaran</h3></legend>
                             <table class="form" border="0">
                             <tr>
                                 <td><label for="user">Username</label> </td>
-                                <td ><input class="input-data" type="text" name="user"></td>
+                                <td ><input class="input-data" type="text" name="user" required></td>
                             </tr>
                             <tr>
                                 <td><label for="password">Password</label></td>
                                 <td>
-                                    <input class="input-data" type="password" name="password">
+                                    <input class="input-data" type="password" name="password" required>
                                 </td>
                             </tr>
                             <tr>
                                 <td><label for="Email">Email</label></td>
                                 <td>
-                                    <input class="input-data" type="Email" name="Email">
+                                    <input class="input-data" type="Email" name="Email" required>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Jenis kelamin</td>
                                 <td >
-                                    <input type="radio" name="Laki-Laki" id="">
+                                    <input type="radio" name="gender" id="">
                                     <label for="gender" name="Laki-Laki">Laki-Laki</label>
-                                    <input type="radio" name="perempuan" id="">
+                                    <input type="radio" name="gender" id="">
                                     <label for="gender" name="perempuan">Perempuan</label>
                                 </td>
                                 <tr>
@@ -179,6 +179,7 @@
                                     <td></td>
                                     <td>
                                         <input type="submit" value="submit" id="submit-btn">
+                                        <input type="reset" name="reset" id="reset-btn">
                                     </td>
                                 </tr>
                                 
